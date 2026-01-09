@@ -3,7 +3,7 @@ from tkinter import scrolledtext
 import threading
 from groq import Groq
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 COLORS = {
     "bg": "#1E82B0",
@@ -102,3 +102,4 @@ send_button = tk.Button(
 send_button.pack(side=tk.RIGHT, ipady=7)
 
 window.mainloop()
+
